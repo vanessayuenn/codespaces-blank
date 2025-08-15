@@ -15,21 +15,18 @@
   "tasks": {
     "storybook": {
       "name": "storybook",
-      "command": "npm run storybook",
+      "command": "npm run storybook --no-open",
       "runAtStart": true
     },
     "test-storybook": {
       "name": "test-storybook",
       "command": "npm run test-storybook",
-    }
+      "runAtStart": false
+    },
     "build-storybook": {
       "name": "build-storybook",
       "command": "npm run build-storybook",
       "runAtStart": false
-    },
-    "": {
-      "name": "",
-      "command": ""
     }
   }
 }
