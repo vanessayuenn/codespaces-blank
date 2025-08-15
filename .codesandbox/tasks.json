@@ -13,8 +13,8 @@
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "storybook": {
-      "name": "storybook",
+    "dev": {
+      "name": "dev",
       "command": "npm run storybook",
       "runAtStart": true
     },
