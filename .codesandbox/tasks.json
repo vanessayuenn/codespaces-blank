@@ -15,7 +15,7 @@
   "tasks": {
     "storybook": {
       "name": "storybook",
-      "command": "npm run storybook --no-open",
+      "command": "npm run storybook",
       "runAtStart": true
     },
     "test-storybook": {
