@@ -1,0 +1,35 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "command": "npm install",
+      "name": "Installing Dependencies"
+    },
+    {
+      "command": "npx playwright install chromium --with-deps",
+      "name": "Configuring Playwright with Chromium (this might take some time)"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "storybook": {
+      "name": "storybook",
+      "command": "npm run storybook",
+      "runAtStart": true
+    },
+    "test-storybook": {
+      "name": "test-storybook",
+      "command": "npm run test-storybook",
+    }
+    "build-storybook": {
+      "name": "build-storybook",
+      "command": "npm run build-storybook",
+      "runAtStart": false
+    },
+    "": {
+      "name": "",
+      "command": ""
+    }
+  }
+}
